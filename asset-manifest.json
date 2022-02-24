@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Material-UI-Movie-App/static/css/main.cd040b1d.chunk.css",
-    "main.js": "/React-Material-UI-Movie-App/static/js/main.e36f63ef.chunk.js",
-    "main.js.map": "/React-Material-UI-Movie-App/static/js/main.e36f63ef.chunk.js.map",
+    "main.css": "/React-Material-UI-Movie-App/static/css/main.def7602a.chunk.css",
+    "main.js": "/React-Material-UI-Movie-App/static/js/main.7696b4b8.chunk.js",
+    "main.js.map": "/React-Material-UI-Movie-App/static/js/main.7696b4b8.chunk.js.map",
     "runtime-main.js": "/React-Material-UI-Movie-App/static/js/runtime-main.bb493281.js",
     "runtime-main.js.map": "/React-Material-UI-Movie-App/static/js/runtime-main.bb493281.js.map",
     "static/css/2.02daa001.chunk.css": "/React-Material-UI-Movie-App/static/css/2.02daa001.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.a65dade0.chunk.js.map": "/React-Material-UI-Movie-App/static/js/2.a65dade0.chunk.js.map",
     "index.html": "/React-Material-UI-Movie-App/index.html",
     "static/css/2.02daa001.chunk.css.map": "/React-Material-UI-Movie-App/static/css/2.02daa001.chunk.css.map",
-    "static/css/main.cd040b1d.chunk.css.map": "/React-Material-UI-Movie-App/static/css/main.cd040b1d.chunk.css.map",
+    "static/css/main.def7602a.chunk.css.map": "/React-Material-UI-Movie-App/static/css/main.def7602a.chunk.css.map",
     "static/js/2.a65dade0.chunk.js.LICENSE.txt": "/React-Material-UI-Movie-App/static/js/2.a65dade0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bb493281.js",
     "static/css/2.02daa001.chunk.css",
     "static/js/2.a65dade0.chunk.js",
-    "static/css/main.cd040b1d.chunk.css",
-    "static/js/main.e36f63ef.chunk.js"
+    "static/css/main.def7602a.chunk.css",
+    "static/js/main.7696b4b8.chunk.js"
   ]
 }
