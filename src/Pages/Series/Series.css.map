@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;CAChC",
+    "sources": [
+        "Series.scss"
+    ],
+    "names": [],
+    "file": "Series.css"
+}

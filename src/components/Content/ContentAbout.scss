@@ -1,0 +1,93 @@
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-lg-min: 992px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xxl-min: 1400px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+$fsz: 20px;
+
+.content-about {
+    &__budget {
+        font-size: $fsz;
+        margin-bottom: 20px;
+        color: rgb(4, 70, 4);
+
+        @media (max-width: $breakpoint-xs-max) {
+            font-size: 18px;
+        }
+    }
+    &__revenue {
+        margin-bottom: 20px;
+        font-size: $fsz;
+        color: rgb(4, 70, 4);
+
+        @media (max-width: $breakpoint-xs-max) {
+            font-size: 18px;
+        }
+    }
+    &__time {
+        margin-bottom: 20px;
+        font-size: $fsz;
+        color: rgb(196, 78, 78);
+    }
+    &__web {
+        margin-bottom: 20px;
+        font-size: 23px;
+        color: rgb(128, 0, 255);
+
+        @media (max-width: $breakpoint-xs-max) {
+            font-size: 16px;
+        }
+        a {
+            color: rgb(132, 235, 230);
+            transition: all 0.8s ease;
+            word-wrap: break-word;
+            &:hover {
+                color: rgb(228, 195, 195);
+            }
+        }
+    }
+
+    .companies-wrapper {
+        display: flex;
+        @media (max-width: $breakpoint-sm-max) {
+            flex-direction: column;
+        }
+    }
+    &__companies {
+        margin-bottom: $fsz;
+        .company {
+            margin-bottom: 15px;
+            font-size: 20px;
+            color: rgb(225, 179, 179);
+
+            @media (max-width: $breakpoint-xs-max) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__img {
+        display: flex;
+        align-items: center;
+        margin-left: 90px;
+        padding-bottom: 15px;
+        img {
+            margin-right: 50px;
+            margin-bottom: 15px;
+
+            @media (max-width: $breakpoint-sm-max) {
+                margin-right: 10px;
+            }
+        }
+        @media (max-width: $breakpoint-sm-max) {
+            flex-wrap: wrap;
+            margin: 0;
+        }
+    }
+}

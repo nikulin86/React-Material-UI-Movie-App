@@ -1,0 +1,54 @@
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 30px 30px;
+  background-color: #cbd5e8;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  cursor: pointer;
+}
+
+.media:hover {
+  background-color: #fff;
+  color: #333;
+  -webkit-transition: 1.2s ease-in-out;
+  transition: 1.2s ease-in-out;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.media .poster {
+  border-radius: 10px;
+}
+
+.media .title {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.media .subTitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.media .date {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=SingleContent.css.map */

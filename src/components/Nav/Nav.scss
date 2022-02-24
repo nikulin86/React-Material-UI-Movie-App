@@ -1,0 +1,42 @@
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-lg-min: 992px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xxl-min: 1400px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+.navWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+
+
+}
+.nav {
+  
+    &-link {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        margin-left: 5px;
+        color: rgb(157, 129, 129);
+        transition: all 0.8s ease;
+
+        &:hover {
+            color: rgb(51, 17, 17);
+        }
+
+        span {
+            @media (max-width: $breakpoint-sm-max) {
+                display: none;
+            }
+        }
+        .nav-icon {
+            margin-right: 10px;
+        }
+    }
+}

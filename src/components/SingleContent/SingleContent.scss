@@ -1,0 +1,65 @@
+$fsz: 22px;
+$m-b: 10px;
+$b-r: 10px;
+
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-lg-min: 992px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xxl-min: 1400px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+
+
+.media {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 550px;
+    padding: 10px;
+    margin: 30px 30px;
+    background-color:#cbd5e8;
+    border-radius: $b-r;
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    cursor: pointer;
+    
+
+    &:hover {
+        background-color: #fff;
+        color:#333;
+        transition:  1.2s ease-in-out;
+    }
+
+
+    .poster {
+        height: 70%;
+        border-radius: $b-r;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: $fsz;
+        padding: 15px 0;
+        color: rgb(109, 102, 230);
+    }
+    .subTitle {
+        font-size: $fsz;
+        margin-bottom: $m-b;
+        text-align: center;
+        color: rgb(57, 48, 233);
+    }
+    .date {
+        font-size: $fsz;
+        text-align: center;
+        margin-bottom: $m-b;
+        color: rgb(14, 9, 124);
+    }
+
+}
+
+

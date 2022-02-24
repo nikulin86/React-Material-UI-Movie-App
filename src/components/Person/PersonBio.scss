@@ -1,0 +1,70 @@
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-lg-min: 992px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xxl-min: 1400px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+.bio-wrapper {
+    padding-top: 30px;
+    .bio-top {
+        display: flex;
+        margin-bottom: 40px;
+
+        @media (max-width: $breakpoint-md-min) {
+            flex-direction: column;
+        }
+        &__left {
+
+            @media (max-width: $breakpoint-md-min) {
+                display: flex;
+                justify-content: center;
+            }
+        }
+        &__right {
+            flex-basis: 70%;
+            text-align: center;
+            .person-name {
+                font-size: 60px;
+                margin-bottom: 20px;
+                @media (max-width: $breakpoint-lg-min) {
+                    font-size: 50px;
+                }
+                @media (max-width: $breakpoint-xs-max) {
+                    font-size: 40px;
+                }
+            }
+            .person-birthday {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            .person-place_of_birth {
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+            .person-cast {
+                &__title {
+                    font-size: 30px;
+                    color: rgb(41, 40, 90);
+                    margin-bottom: 20px;
+                }
+                li {
+                    margin-bottom: 15px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .bio-bottom {
+        .bio-biography {
+            font-size: 20px;
+            line-height: 25px;
+            color: rgb(179, 220, 248);
+        }
+    }
+}

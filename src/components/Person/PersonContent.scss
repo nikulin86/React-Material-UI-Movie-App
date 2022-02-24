@@ -1,0 +1,32 @@
+.personCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.personCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  padding: 7px;
+  margin: 30px 30px;
+  background-color: #cbd5e8;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  cursor: pointer;
+
+  .person-name {
+    font-family: "DM Sans";
+    font-size: 20px;
+    margin: 10px 0;
+    color: rgb(83, 85, 148);
+  }
+  .person-popularity {
+    font-size: 15px;
+    color: rgb(83, 85, 148);
+  }
+  .poster {
+    border-radius: 10px;
+  }
+}

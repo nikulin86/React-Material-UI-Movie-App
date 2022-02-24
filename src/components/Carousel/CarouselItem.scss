@@ -1,0 +1,39 @@
+$breakpoint-sm-min: 576px;
+$breakpoint-xs-max: $breakpoint-sm-min - 1px;
+$breakpoint-md-min: 768px;
+$breakpoint-sm-max: $breakpoint-md-min - 1px;
+$breakpoint-lg-min: 992px;
+$breakpoint-md-max: $breakpoint-lg-min - 1px;
+$breakpoint-xl-min: 1200px;
+$breakpoint-lg-max: $breakpoint-xl-min - 1px;
+$breakpoint-xxl-min: 1400px;
+$breakpoint-xl-max: $breakpoint-xxl-min - 1px;
+
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 350px;
+    // height: 100%;
+
+    &__txt {
+        color: #333;
+        font-size: 20px;
+    }
+
+    
+  @media (max-width: $breakpoint-xs-max) {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+.carouselItem__img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px black;
+}
